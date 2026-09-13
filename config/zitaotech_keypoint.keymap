@@ -112,10 +112,10 @@
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&trans     &kp SLASH         &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp MINUS     &trans     &trans     &trans     &trans    &trans        &trans
-&kp BSLH   &kp SINGLE_QUOTE  &kp N6        &kp NUMBER_5  &kp N4        &kp EQUAL     &mkp RCLK  &mkp RCLK  &kp LEFT   &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans      &trans
-&kp COMMA  &kp KP_DOT        &kp N3        &kp N2        &kp N1        &kp NUMBER_0  &trans     &trans     &trans     &trans    &trans        &trans     &kp LBKT    &kp RBKT  &trans  &trans
-&trans     &trans            &trans        &trans        &trans        &trans        &trans     &mo 1      &kp SPACE  &to 3     &trans        &trans     &kp K_MENU  &trans
+&trans     &kp SLASH         &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp MINUS     &trans     &trans     &trans    &trans    &trans        &trans
+&kp BSLH   &kp SINGLE_QUOTE  &kp N6        &kp NUMBER_5  &kp N4        &kp EQUAL     &mkp RCLK  &mkp RCLK  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans      &trans
+&kp COMMA  &kp KP_DOT        &kp N3        &kp N2        &kp N1        &kp NUMBER_0  &trans     &trans     &trans    &trans    &trans        &trans     &kp LBKT    &kp RBKT  &trans  &trans
+&trans     &trans            &trans        &trans        &trans        &trans        &trans     &trans     &trans    &trans    &trans        &trans     &kp K_MENU  &trans
             >;
 
             sensor-bindings = <&BLE_encoder &inc_dec_kp UP DOWN>;
@@ -125,9 +125,9 @@
             display-name = "RAISE";
             bindings = <
 &kp CAPS  &kp F1   &kp F2    &kp F3  &kp F4  &kp F5   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&kp F11   &kp END  &kp HOME  &trans  &trans   &kp F12  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans
-&trans    &trans    &trans     &trans   &trans   &trans    &trans   &trans   &trans   &trans   &trans    &trans  &trans  &trans  &trans  &trans
-&trans    &trans   &trans     &trans   &trans  &trans    &trans   &trans   &trans   &trans  &trans    &trans  &trans  &trans
+&kp F11   &kp END  &kp HOME  &trans  &trans  &kp F12  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans
+&trans    &trans   &trans    &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans
+&trans    &trans   &trans    &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans
             >;
         };
 
