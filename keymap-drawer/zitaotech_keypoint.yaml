@@ -49,8 +49,8 @@ layers:
   - MUTE
   - {t: SPACE, h: LOWER}
   - SPACE
-  - LOWER
-  - LOWER
+  - MOUSE
+  - MOUSE
   - SPACE
   - {t: SPACE, h: LOWER}
   - MUTE
@@ -134,7 +134,7 @@ layers:
   - S
   - D
   - F
-  - G
+  - OUT TOG
   - '&mkp LCLK'
   - '&mkp LCLK'
   - H
@@ -165,7 +165,7 @@ layers:
   - ''
   - RAISE
   - SPACE
-  - '&mkp MB1'
+  - {t: '&mkp MB1', type: held}
   - '&mkp MB1'
   - '&tdRMCLK'
   - RAISE
