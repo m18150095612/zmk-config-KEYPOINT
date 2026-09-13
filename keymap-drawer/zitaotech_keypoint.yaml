@@ -148,7 +148,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - '&bootloader'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - ''
