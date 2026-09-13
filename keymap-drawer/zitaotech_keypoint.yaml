@@ -39,8 +39,8 @@ layers:
   - '&msc SCRL_UP'
   - N
   - M
-  - ','
-  - .
+  - {t: ',', h: LCTRL}
+  - {t: ., h: LEFT ALT}
   - LEFT SHIFT
   - ''
   - Ctl+LEFT SHIFT
@@ -55,64 +55,64 @@ layers:
   - {t: SPACE, h: LOWER}
   - MUTE
   - '&lm 1 LSHIFT'
-  - '='
-  - '`'
+  - {t: TAB, h: Ctl+LEFT SHIFT}
+  - Ctl+LEFT ALT
   LOWER:
-  - ESC
-  - '1'
+  - {t: ▽, type: trans}
+  - /
   - '9'
   - '8'
   - '7'
   - '-'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - DEL
-  - CAPS
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - \
+  - ''''
   - '6'
   - '5'
   - '4'
-  - {t: ▽, type: trans}
+  - '='
   - '&mkp RCLK'
   - '&mkp RCLK'
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''''
-  - ENTER
-  - LSHFT
-  - {t: ▽, type: trans}
+  - ','
+  - KP DOT
   - '3'
   - '2'
   - '1'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - NUBS
-  - RSHFT
-  - LCTRL
-  - LGUI
-  - '&bootloader'
-  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - SPACE
-  - LOWER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LOWER
   - SPACE
   - {t: MOUSE, h: toggle}
-  - OUT TOG
-  - '&bootloader'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - MENU
   - {t: ▽, type: trans}
   RAISE:
   - ESC
