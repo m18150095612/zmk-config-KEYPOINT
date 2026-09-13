@@ -54,7 +54,7 @@ layers:
   - {t: ENTER, h: RAISE}
   - {t: SPACE, h: LOWER}
   - MUTE
-  - '-'
+  - '&lm 1 LSHIFT'
   - '='
   - '`'
   LOWER:
