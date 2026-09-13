@@ -153,7 +153,7 @@ layers:
   - '&msc SCRL_UP'
   - ''
   - ''
-  - N
+  - '&bootloader'
   - {t: M, h: '&mkp MB2'}
   - ','
   - .
