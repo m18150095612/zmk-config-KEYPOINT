@@ -115,9 +115,9 @@ layers:
   - MENU
   - {t: ▽, type: trans}
   RAISE:
-  - ESC
+  - CAPS
   - F1
-  - UP
+  - F2
   - F3
   - F4
   - F5
@@ -127,28 +127,21 @@ layers:
   - F9
   - F10
   - ''
-  - CAPS
-  - LEFT
-  - DOWN
-  - RIGHT
-  - ''
-  - ''
-  - ''
-  - ''
   - F11
+  - END
+  - HOME
+  - {t: ▽, type: trans}
+  - ''
   - F12
   - ''
   - ''
-  - ''
-  - ''
-  - LSHFT
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -157,16 +150,23 @@ layers:
   - ''
   - ''
   - ''
-  - LCTRL
-  - LGUI
   - ''
   - ''
-  - RAISE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
   - ''
   - ''
-  - RAISE
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
