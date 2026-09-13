@@ -124,10 +124,10 @@
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&kp CAPS  &kp F1   &kp F2    &kp F3  &kp F4  &kp F5   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none
-&kp F11   &kp END  &kp HOME  &trans  &none   &kp F12  &none   &none   &trans  &trans  &none    &none  &none  &none
-&trans    &none    &none     &none   &none   &none    &none   &none   &none   &none   &none    &none  &none  &none  &none  &none
-&trans    &trans   &none     &none   &trans  &none    &none   &none   &none   &trans  &none    &none  &none  &none
+&kp CAPS  &kp F1   &kp F2    &kp F3  &kp F4  &kp F5   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&kp F11   &kp END  &kp HOME  &trans  &trans   &kp F12  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans
+&trans    &trans    &trans     &trans   &trans   &trans    &trans   &trans   &trans   &trans   &trans    &trans  &trans  &trans  &trans  &trans
+&trans    &trans   &trans     &trans   &trans  &trans    &trans   &trans   &trans   &trans  &trans    &trans  &trans  &trans
             >;
         };
 
