@@ -106,16 +106,16 @@
 &kp LC(LEFT_SHIFT)  &mt LCTRL ESCAPE  &mt LALT BACKSPACE  &kp C_MUTE  &lt 1 SPACE  &lt 2 ENTER  &mo 3      &mo 3      &lt 2 ENTER     &lt 1 SPACE   &kp C_MUTE  &lm 1 LSHIFT  &mt LC(LEFT_SHIFT) TAB  &kp LC(LEFT_ALT)
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
             display-name = "LOWER";
             bindings = <
 &trans     &kp SLASH         &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp MINUS     &trans     &trans     &trans    &trans    &trans        &trans
-&kp BSLH   &kp SINGLE_QUOTE  &kp N6        &kp NUMBER_5  &kp N4        &kp EQUAL     &mkp RCLK  &mkp RCLK  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans      &trans
-&kp COMMA  &kp KP_DOT        &kp N3        &kp N2        &kp N1        &kp NUMBER_0  &trans     &trans     &trans    &trans    &trans        &trans     &kp LBKT    &kp RBKT  &trans  &trans
-&trans     &trans            &trans        &trans        &trans        &trans        &trans     &trans     &trans    &trans    &trans        &trans     &kp K_MENU  &trans
+&kp BSLH   &kp SINGLE_QUOTE  &kp N6        &kp NUMBER_5  &kp N4        &kp EQUAL     &mkp RCLK  &mkp RCLK  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans             &trans
+&kp COMMA  &kp KP_DOT        &kp N3        &kp N2        &kp N1        &kp NUMBER_0  &trans     &trans     &trans    &trans    &trans        &trans     &kp LBKT           &kp RBKT  &trans  &trans
+&trans     &trans            &trans        &trans        &trans        &trans        &trans     &trans     &trans    &trans    &trans        &trans     &kp K_APPLICATION  &trans
             >;
 
             sensor-bindings = <&BLE_encoder &inc_dec_kp UP DOWN>;
@@ -124,10 +124,10 @@
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&kp CAPS  &kp F1   &kp F2    &kp F3  &kp F4  &kp F5   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&kp F11   &kp END  &kp HOME  &trans  &trans  &kp F12  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans
-&trans    &trans   &trans    &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans
-&trans    &trans   &trans    &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans
+&kp CAPS  &kp F1    &kp F2    &kp F3          &kp F4          &kp F5       &kp F6  &msc SCRL_UP  &kp F8          &kp F9          &kp F10       &trans
+&kp F11   &kp END   &kp HOME  &msc SCRL_DOWN  &kp PAGE_DOWN   &kp F12      &trans  &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans    &trans
+&trans    &mkp MB1  &trans    &kp LC(INSERT)  &kp LS(INSERT)  &kp PAGE_UP  &trans  &trans        &trans          &trans          &trans        &trans           &trans    &trans  &trans  &trans
+&trans    &trans    &trans    &trans          &trans          &trans       &trans  &trans        &trans          &trans          &trans        &trans           &mkp MB2  &trans
             >;
         };
 
