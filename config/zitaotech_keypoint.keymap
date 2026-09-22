@@ -124,7 +124,7 @@
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&kp CAPS  &kp F1   &kp F2    &kp F3          &kp F4          &kp F5       &kp F6  &msc SCRL_UP  &mkp MB1        &kp F9          &kp F10       &trans
+&kp CAPS  &kp F1   &kp F2    &kp F3          &kp F4          &kp F5       &kp F6  &msc SCRL_UP  &kp F8          &mkp MB1        &kp F10       &trans
 &kp F11   &kp END  &kp HOME  &msc SCRL_DOWN  &kp PAGE_DOWN   &kp F12      &trans  &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans    &trans
 &trans    &trans   &trans    &kp LC(INSERT)  &kp LS(INSERT)  &kp PAGE_UP  &trans  &trans        &trans          &trans          &trans        &trans           &trans    &trans  &trans  &trans
 &trans    &trans   &trans    &trans          &trans          &trans       &trans  &trans        &trans          &trans          &trans        &trans           &mkp MB2  &trans
