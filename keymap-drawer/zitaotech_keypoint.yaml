@@ -26,7 +26,7 @@ layers:
   - K
   - L
   - {t: ;, h: LEFT WIN}
-  - ''
+  - Ctl+LEFT ALT
   - LSHFT
   - Z
   - X
@@ -53,10 +53,10 @@ layers:
   - MOUSE
   - {t: ENTER, h: RAISE}
   - {t: SPACE, h: LOWER}
-  - MUTE
+  - ''
   - '&lm 1 LSHIFT'
   - {t: TAB, h: Ctl+LEFT SHIFT}
-  - Ctl+LEFT ALT
+  - ''
   LOWER:
   - {t: ▽, type: trans}
   - /
