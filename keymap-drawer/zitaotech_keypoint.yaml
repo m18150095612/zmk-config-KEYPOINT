@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
   QWERTY:
-  - {t: TAB, h: Meh+LEFT ALT}
+  - {t: TAB, h: Ctl+Sft+LALT}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - ''
+  - MOUSE HOLD
   - {t: '`', h: LEFT WIN}
   - A
   - S
@@ -42,7 +42,7 @@ layers:
   - {t: ',', h: LCTRL}
   - {t: ., h: LEFT ALT}
   - LEFT SHIFT
-  - ''
+  - Sft+LALT
   - Ctl+LEFT SHIFT
   - {t: ESCAPE, h: LCTRL}
   - {t: BACKSPACE, h: LALT}
@@ -53,7 +53,7 @@ layers:
   - MOUSE
   - {t: ENTER, h: RAISE}
   - {t: SPACE, h: LOWER}
-  - ''
+  - MUTE
   - '&lm 1 LSHIFT'
   - {t: TAB, h: Ctl+LEFT SHIFT}
   - ''
@@ -217,16 +217,73 @@ layers:
   - LCTRL
   - LGUI
   - LALT
-  - ''
+  - {t: ▽, type: trans}
   - RAISE
   - SPACE
   - {t: '&mkp MB1', type: held}
   - '&mkp MB1'
   - '&tdRMCLK'
   - RAISE
-  - MUTE
+  - {t: ▽, type: trans}
   - '-'
   - '='
   - '`'
   RESERVE: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  MOUSE HOLD:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - {t: U, h: '&mkp MB3'}
+  - I
+  - O
+  - P
+  - {t: BSPC, type: held}
+  - CAPS
+  - A
+  - S
+  - D
+  - F
+  - OUT TOG
+  - '&mkp LCLK'
+  - '&mkp LCLK'
+  - OUT TOG
+  - {t: J, h: '&mkp MB1'}
+  - K
+  - L
+  - ;
+  - ENTER
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - '&bootloader'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - ''
+  - ''
+  - '&bootloader'
+  - {t: M, h: '&mkp MB2'}
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LCTRL
+  - LGUI
+  - LALT
+  - {t: ▽, type: trans}
+  - RAISE
+  - SPACE
+  - '&mkp MB1'
+  - '&mkp MB1'
+  - '&tdRMCLK'
+  - RAISE
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - '`'
