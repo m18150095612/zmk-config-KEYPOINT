@@ -74,6 +74,15 @@
         };
     };
 
+    // Right encoder reports the opposite physical rotation direction.
+    behaviors {
+        BLE_encoder_right: BLE_encoder_right {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&bt BT_PRV>, <&bt BT_NXT>;
+        };
+    };
+
     macros {
         lm: lm {
             compatible = "zmk,behavior-macro-two-param";
@@ -142,7 +151,7 @@
 &kp LCTRL  &kp LGUI  &kp LALT  &trans  &mo 2  &kp SPACE     &mkp MB1        &LMouse_sc 0 MB1  &tdRMCLK      &mo 2        &trans  &kp MINUS    &kp EQUAL  &kp GRAVE
             >;
 
-            sensor-bindings = <&BLE_encoder &BLE_encoder>;
+            sensor-bindings = <&BLE_encoder &BLE_encoder_right>;
         };
 
         RES_layer {
@@ -166,7 +175,7 @@
 &kp LCTRL  &kp LGUI  &kp LALT  &trans  &mo 2  &kp SPACE     &mkp MB1        &LMouse_sc 0 MB1  &tdRMCLK      &mo 2        &trans  &kp MINUS    &kp EQUAL  &kp GRAVE
             >;
 
-            sensor-bindings = <&BLE_encoder &BLE_encoder>;
+            sensor-bindings = <&BLE_encoder &BLE_encoder_right>;
         };
     };
 };
