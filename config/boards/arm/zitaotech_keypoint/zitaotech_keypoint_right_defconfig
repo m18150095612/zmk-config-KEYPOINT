@@ -65,8 +65,7 @@ CONFIG_INPUT_THREAD_STACK_SIZE=2048
 CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=20
 CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=20
 
-# Enable both USB and BLE
-CONFIG_ZMK_USB=y
+# Peripheral half uses BLE; USB HID is available on the central half.
 CONFIG_ZMK_BLE=y
 
 # Milliseconds to wait after a setting change before writing it to flash memory
@@ -89,4 +88,5 @@ CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
 CONFIG_INPUT=y
 CONFIG_ZMK_MOUSE=y
 CONFIG_ZMK_POINTING=y
+
 

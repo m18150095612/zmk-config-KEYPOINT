@@ -50,7 +50,7 @@
     pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
 
-    bbtrackpad:a320@3B {
+    bbtrackpad:a320@3b {
         compatible = "avago,a320";
         reg = <0x3B>;
         status = "okay";
@@ -123,5 +123,6 @@
         };
     };
 };
+
 
 

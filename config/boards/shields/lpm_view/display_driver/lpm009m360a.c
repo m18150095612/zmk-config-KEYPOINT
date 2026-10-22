@@ -71,16 +71,12 @@ static int lpm009m360a_transmit(const struct device *dev, uint8_t cmd, uint8_t a
 }
 
 static int lpm009m360a_exit_sleep(const struct device *dev) {
-    int ret;
-    const struct lpm009m360a_config *config = dev->config;
     LOG_DBG("Exiting sleep mode");
     k_sleep(LPM009M360A_EXIT_SLEEP_TIME);
     return 0;
 }
 
 static int lpm009m360a_sleep(const struct device *dev) {
-    int ret;
-    const struct lpm009m360a_config *config = dev->config;
     LOG_DBG("Sleeping display, but not really");
     return 0;
 }
@@ -201,7 +197,6 @@ static int lpm009m360a_set_orientation(const struct device *dev,
 
 static int lpm009m360a_init(const struct device *dev) {
     LOG_INF("initializing");
-    const struct lpm009m360a_config *config = dev->config;
     int ret;
 
     // if (!spi_is_ready_dt(&config->bus)) {
@@ -299,3 +294,4 @@ static const struct display_driver_api lpm009m360a_api = {
                           CONFIG_DISPLAY_INIT_PRIORITY, &lpm009m360a_api);
 
 DT_INST_FOREACH_STATUS_OKAY(LPM009M360A_INIT)
+
