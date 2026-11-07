@@ -265,8 +265,8 @@ layers:
   - '&bootloader'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
-  - ''
-  - ''
+  - '&td_bt_clear'
+  - {t: BT DISC, h: '1'}
   - '&bootloader'
   - {t: M, h: '&mkp MB2'}
   - ','
