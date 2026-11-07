@@ -73,8 +73,7 @@
 
 &bbtrackpad_listener {
     status = "okay";
-    input-processors = <&zip_temp_layer 3 600>,
-    <&ip_behaviors0>,
+    input-processors = <&ip_behaviors0>,
     <&ip_behaviors1>,
     <&ip_behaviors2>,
     <&ip_behaviors3>;
