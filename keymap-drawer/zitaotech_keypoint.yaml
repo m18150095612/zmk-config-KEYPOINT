@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - MOUSE HOLD
+  - MOUSE
   - {t: '`', h: LEFT WIN}
   - A
   - S
@@ -173,101 +173,42 @@ layers:
   - {t: ▽, type: trans}
   MOUSE:
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: U, h: '&mkp MB3'}
-  - I
-  - O
-  - P
-  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - CAPS
-  - A
-  - S
-  - D
-  - F
-  - OUT TOG
-  - '&mkp LCLK'
-  - '&mkp LCLK'
-  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: J, h: '&mkp MB1'}
-  - K
-  - L
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ;
   - ENTER
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - '&bootloader'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - ''
-  - ''
-  - '&bootloader'
-  - {t: M, h: '&mkp MB2'}
-  - ','
-  - .
-  - /
-  - RSHFT
-  - LCTRL
-  - LGUI
-  - LALT
   - {t: ▽, type: trans}
-  - RAISE
-  - SPACE
-  - {t: '&mkp MB1', type: held}
-  - '&mkp MB1'
-  - '&tdRMCLK'
-  - RAISE
   - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '`'
-  RESERVE: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
-  MOUSE HOLD:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - {t: U, h: '&mkp MB3'}
-  - I
-  - O
-  - P
-  - {t: BSPC, type: held}
-  - CAPS
-  - A
-  - S
-  - D
-  - F
-  - OUT TOG
-  - '&mkp LCLK'
-  - '&mkp LCLK'
-  - OUT TOG
-  - {t: J, h: '&mkp MB1'}
-  - K
-  - L
-  - ;
-  - ENTER
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&bootloader'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
+  - OUT TOG
   - '&td_bt_clear'
   - {t: BT DISC, h: '1'}
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - {t: M, h: '&mkp MB2'}
   - ','
   - .
