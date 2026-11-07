@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - MOUSE
+  - DEVICE
   - {t: '`', h: LEFT WIN}
   - A
   - S
@@ -49,8 +49,8 @@ layers:
   - MUTE
   - {t: SPACE, h: NUM NAV}
   - {t: ENTER, h: FN NAV}
-  - MOUSE
-  - MOUSE
+  - DEVICE
+  - DEVICE
   - {t: ENTER, h: FN NAV}
   - {t: SPACE, h: NUM NAV}
   - MUTE
@@ -171,20 +171,19 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  MOUSE:
-  - TAB
+  DEVICE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: U, h: '&mkp MB3'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -193,11 +192,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: J, h: '&mkp MB1'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ;
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -209,22 +209,22 @@ layers:
   - '&td_bt_clear'
   - {t: BT DISC, h: '1'}
   - {t: ▽, type: trans}
-  - {t: M, h: '&mkp MB2'}
-  - ','
-  - .
-  - /
-  - RSHFT
-  - LCTRL
-  - LGUI
-  - LALT
   - {t: ▽, type: trans}
-  - FN NAV
-  - SPACE
-  - '&mkp MB1'
-  - '&mkp MB1'
-  - '&tdRMCLK'
-  - FN NAV
   - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
