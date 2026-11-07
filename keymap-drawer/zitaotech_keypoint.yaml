@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: zitaotech_keypoint}
 layers:
-  QWERTY:
+  BASE:
   - {t: TAB, h: Ctl+Sft+LALT}
   - Q
   - W
@@ -47,17 +47,17 @@ layers:
   - {t: ESCAPE, h: LCTRL}
   - {t: BACKSPACE, h: LALT}
   - MUTE
-  - {t: SPACE, h: LOWER}
-  - {t: ENTER, h: RAISE}
+  - {t: SPACE, h: NUM NAV}
+  - {t: ENTER, h: FN NAV}
   - MOUSE
   - MOUSE
-  - {t: ENTER, h: RAISE}
-  - {t: SPACE, h: LOWER}
+  - {t: ENTER, h: FN NAV}
+  - {t: SPACE, h: NUM NAV}
   - MUTE
   - '&lm 1 LSHIFT'
   - {t: TAB, h: Ctl+LEFT SHIFT}
   - ''
-  LOWER:
+  NUM NAV:
   - {t: ▽, type: trans}
   - /
   - '9'
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - APPLICATION
   - {t: ▽, type: trans}
-  RAISE:
+  FN NAV:
   - CAPS
   - F1
   - F2
@@ -218,12 +218,12 @@ layers:
   - LGUI
   - LALT
   - {t: ▽, type: trans}
-  - RAISE
+  - FN NAV
   - SPACE
   - '&mkp MB1'
   - '&mkp MB1'
   - '&tdRMCLK'
-  - RAISE
+  - FN NAV
   - {t: ▽, type: trans}
   - '-'
   - '='
