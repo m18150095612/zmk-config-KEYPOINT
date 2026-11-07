@@ -13,7 +13,7 @@
 
 #define LOWER 1
 #define RAISE 2
-#define MOUSE 3
+#define DEVICE 3
 #define BOT bootloader
 
 / {
@@ -26,7 +26,7 @@
         };
     };
 
-    // Double tap in the MOUSE layer to clear only the active BT profile.
+    // Double tap in the DEVICE layer to clear only the active BT profile.
     behaviors {
         td_bt_clear: tap_dance_bt_clear {
             compatible = "zmk,behavior-tap-dance";
@@ -119,7 +119,7 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-&mt LC(LS(LALT)) TAB  &kp Q             &kp W               &kp E       &kp R        &kp T        &kp Y      &kp U      &kp I           &kp O         &kp P  &mo MOUSE
+&mt LC(LS(LALT)) TAB  &kp Q             &kp W               &kp E       &kp R        &kp T        &kp Y      &kp U      &kp I           &kp O         &kp P  &mo DEVICE
 &mt LEFT_WIN GRAVE            &kp A             &kp S               &kp D       &kp F        &kp G        &mkp LCLK  &mkp LCLK  &kp H           &kp J         &kp K  &kp L         &mt LEFT_WIN SEMI       &kp LC(LEFT_ALT)
 &kp LSHFT                     &kp Z             &kp X               &kp C       &kp V        &kp B        &kp PG_DN  &kp PG_UP  &msc SCRL_DOWN  &msc SCRL_UP  &kp N  &kp M         &mt LCTRL COMMA         &mt LEFT_ALT DOT  &kp LEFT_SHIFT  &kp LS(LALT)
 &kp LC(LEFT_SHIFT)            &mt LCTRL ESCAPE  &mt LALT BACKSPACE  &kp C_MUTE  &lt 1 SPACE  &lt 2 ENTER  &mo 3      &mo 3      &lt 2 ENTER     &lt 1 SPACE   &kp C_MUTE  &lm 1 LSHIFT  &mt LC(LEFT_SHIFT) TAB  &none
@@ -150,13 +150,13 @@
             >;
         };
 
-        MOUSE_layer {
-            display-name = "MOUSE";
+        device_layer {
+            display-name = "DEVICE";
             bindings = <
-&kp TAB  &trans  &trans  &trans  &trans  &trans  &trans  &M_kp MB3 U  &trans  &trans  &trans  &trans
-&kp CAPS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &M_kp MB1 J  &trans  &trans  &kp SEMI  &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans  &BOT  &out OUT_TOG  &td_bt_clear  &bt BT_DISC 1  &trans  &M_kp MB2 M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&kp LCTRL  &kp LGUI  &kp LALT  &trans  &mo 2  &kp SPACE  &mkp MB1  &LMouse_sc 0 MB1  &tdRMCLK  &mo 2  &trans  &kp MINUS  &kp EQUAL  &kp GRAVE
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &BOT  &out OUT_TOG  &td_bt_clear  &bt BT_DISC 1  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&BLE_encoder &BLE_encoder_right>;
