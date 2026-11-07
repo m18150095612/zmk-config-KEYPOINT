@@ -36,7 +36,7 @@
             tapping-term-ms = <400>;
             bindings = <&none>, <&bt BT_CLR>;
         };
-    }
+    };
 
     behaviors {
         tdRMCLK: tap_dance_R_LMouse {
